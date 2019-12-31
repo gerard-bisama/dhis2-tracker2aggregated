@@ -30,7 +30,8 @@
     "orgId":"zJLpGWyTRc7",
     "stageId":"dWlyeXKe8Wb",
     "startDate":"2018-10-01",
-    "endDate":"2018-12-31",
+    "endDate":"2019-12-31",
+    "incrementDays":10,
     "categoriesOptionsId":{
       "categoryKeyPopIds":[
         {
@@ -60,7 +61,7 @@
           "value":"hDTloa1Uz2P"
         },
         {
-          "name":"F",
+          "name":"M",
           "value":"lobfJrult7p"
         }
       ],
@@ -141,14 +142,22 @@
         }
       ]
     },
-    
-    "indicators":[
-      {
-        "indicatorId":"",
-        "indicatorName":"",
-        "calculationMode":"count"
+    "dataElements":[{
+      "name":"KP_PREV",
+      "dataSetId":"ZLyMgpqYeej",
+      "dataElementId":"E0HB0fQV623",
+      "eventDataValues":{
+        "enrPreventionVIH":"sXMj0UrP7PJ",
+        "enrNombrePreservatifMasculinRemisAuClient":"fe7gqH5je3e",
+        "iraKeypopReferePourDepistageVIH":"VoooM9S8aal"
       }
-    ]
+    }],
+    "aggregateDataElements":{
+      "sexe":"mTS7cFxxpT0",
+      "categorieKeyPop":"hVefVvAz9Gl",
+      "groupAge":"vJRgoPgRht7",
+      "partenaireExecution":"Pf2ENZWPMx6"
+    }
   },
   "endPoint":{
     "port":8084
