@@ -9,12 +9,12 @@
     "nbreTrackerEntityToProcess":100,
     "nbreEventsToProcess":100,
     "programId":"nXjCeCIjIYG",
-    "programStageId":"dWlyeXKe8Wb",
+    "programStageId":"KEg4RKcR7Qg",
     "startDate":"2018-10-01",
     "endDate":"2019-12-31",
-    "parentOrgUnit":"k24aeonRPOm",
+    "parentOrgUnit":"wfO1cOQoX27",
     "dataElementToTransfert":[
-      {"attributSource":"kxnOYVRPk3o","dataElementDestination":"hVefVvAz9Gl"}
+      {"attributSource":"ryasRfhQ9gq","dataElementDestination":"FylinLufMsh"}
     ]
   },
   "dataToLock":{
@@ -28,9 +28,8 @@
   },
   "adxEvent":{
     "orgId":"zJLpGWyTRc7",
-    "stageId":"dWlyeXKe8Wb",
-    "startDate":"2019-10-01",
-    "endDate":"2019-11-31",
+    "startDate":"2018-10-01",
+    "endDate":"2019-12-31",
     "incrementDays":30,
     "categoriesOptionsId":{
       "categoryKeyPopIds":[
@@ -143,23 +142,72 @@
       ]
     },
     "dataElements":[{
-      "name":"KP_PREV",
+      "name":"PREV",
+      "stageId":"dWlyeXKe8Wb",
       "dataSetId":"Kp8Tg3vTxN3",
       "dataElementId":"QD3wp1P2yoQ",
       "eventDataValues":{
         "enrPreventionVIH":"sXMj0UrP7PJ",
         "enrNombrePreservatifMasculinRemisAuClient":"fe7gqH5je3e",
         "iraKeypopReferePourDepistageVIH":"VoooM9S8aal"
+      },
+      "aggregateDataElements":{
+        "sexe":"mTS7cFxxpT0",
+        "categorieKeyPop":"hVefVvAz9Gl",
+        "groupAge":"vJRgoPgRht7",
+        "partenaireExecution":"Pf2ENZWPMx6"
       }
-    }],
-    "aggregateDataElements":{
-      "sexe":"mTS7cFxxpT0",
-      "categorieKeyPop":"hVefVvAz9Gl",
-      "groupAge":"vJRgoPgRht7",
-      "partenaireExecution":"Pf2ENZWPMx6"
     }
+    ,
+    {
+      "name":"TEST",
+      "stageId":"KEg4RKcR7Qg",
+      "dataSetId":"Kp8Tg3vTxN3",
+      "dataElementId":"SIZDpvTb2Qo",
+      "eventDataValues":{
+        "cdvClientARecuResultatTestVIH":"tF5bSr615Cy",
+        "cdvResultatVIH":"pJbPsCsSlCK"
+      },
+      "aggregateDataElements":{
+        "sexe":"VsO9cVwuiJK",
+        "categorieKeyPop":"YECcTlSuHSm",
+        "groupAge":"FylinLufMsh",
+        "partenaireExecution":"Pf2ENZWPMx6"
+      }
+    },
+    {
+      "name":"POS",
+      "stageId":"KEg4RKcR7Qg",
+      "dataSetId":"Kp8Tg3vTxN3",
+      "dataElementId":"kKpDkOmnamu",
+      "eventDataValues":{
+        "cdvResultatVIHAvantSessionDepistage":"fuGDFrMLcFq"
+      },
+      "aggregateDataElements":{
+        "sexe":"VsO9cVwuiJK",
+        "categorieKeyPop":"YECcTlSuHSm",
+        "groupAge":"FylinLufMsh",
+        "partenaireExecution":"Pf2ENZWPMx6"
+      }
+    },
+    {
+      "name":"LINKNEW",
+      "stageId":"KEg4RKcR7Qg",
+      "dataSetId":"Kp8Tg3vTxN3",
+      "dataElementId":"f8VP7HzY6jh",
+      "eventDataValues":{
+        "cdvClientTesteVIHPosAComTraitement":"vEwAJjFSN2Q"
+      },
+      "aggregateDataElements":{
+        "sexe":"VsO9cVwuiJK",
+        "categorieKeyPop":"YECcTlSuHSm",
+        "groupAge":"FylinLufMsh",
+        "partenaireExecution":"Pf2ENZWPMx6"
+      }
+    }]
+    
   },
   "endPoint":{
-    "port":8084
+    "port":8083
   }
 }
