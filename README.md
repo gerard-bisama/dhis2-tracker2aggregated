@@ -6,7 +6,7 @@ This app is a nodejs module. It uses mongodb as local cash for counter and perma
 ## Installation
 
 ### Nodejs and mongodb
-* [Nodejs V10.15.1](https://docs.mongodb.com/manual/tutorial/install-mongodb-enterprise-on-ubuntu/)
+* [Nodejs V10.15.1](https://www.liquidweb.com/kb/install-nvm-node-version-manager-node-js-ubuntu-16-04-lts/)
 * [Mongodb](https://docs.mongodb.com/manual/tutorial/install-mongodb-enterprise-on-ubuntu/)
 ### Start server
 Two main componants must be started.
