@@ -6,7 +6,7 @@ This app is a nodejs module. It uses mongodb as local cash for counter and perma
 ## Installation
 
 ### Nodejs and mongodb
-* [Nodejs V10.15.1](https://www.liquidweb.com/kb/install-nvm-node-version-manager-node-js-ubuntu-16-04-lts/)
+* [Nodejs V10.15.1](https://docs.mongodb.com/manual/tutorial/install-mongodb-enterprise-on-ubuntu/)
 * [Mongodb](https://docs.mongodb.com/manual/tutorial/install-mongodb-enterprise-on-ubuntu/)
 ### Start server
 Two main componants must be started.
@@ -99,6 +99,22 @@ To generate Tx_Link_new RELATED dataElements
 ```
 curl http://localhost:8084/convertevent2adx/linknew
 ```
+Prior to run all these commands, we need first to ensure that the data elements in the events contains the entity attributes to use as categories. This can be checked with Event report app in DHIS2 to visualize concerned data element. 
+
+### Automate the process
+In practice, since all this above command must be run several times until all the data are processed, it is advised to set up them as cron jobs.
+these are the default time for the crontab but the time interval can be increased based on the connection and server performance.
+```
+* * * * * curl http://localhost:8084/attribut2estage2
+*/2 * * * * curl http://localhost:8084/lockevents
+*/2 * * * * curl http://localhost:8084/unlockevents
+* * * * * curl http://localhost:8084/convertevent2adx/prev
+* * * * * curl http://localhost:8083/convertevent2adx/linknew
+* * * * * curl http://localhost:8084/convertevent2adx/test
+* * * * * curl http://localhost:8084/convertevent2adx/pos
+```
+
+
 
 Taratataaa!!!!
 
