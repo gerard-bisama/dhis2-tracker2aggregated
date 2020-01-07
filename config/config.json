@@ -9,12 +9,12 @@
     "nbreTrackerEntityToProcess":180,
     "nbreEventsToProcess":100,
     "programId":"nXjCeCIjIYG",
-    "programStageId":"KEg4RKcR7Qg",
-    "startDate":"2018-10-01",
+    "programStageId":"dWlyeXKe8Wb",
+    "startDate":"2018-01-01",
     "endDate":"2019-12-31",
-    "parentOrgUnit":"mehqAZN3Og2",
+    "parentOrgUnit":"yJZUFWFnyML",
     "dataElementToTransfert":[
-      {"attributSource":"kxnOYVRPk3o","dataElementDestination":"yWp4Cd6OUAy"}
+      {"attributSource":"ryasRfhQ9gq","dataElementDestination":"gMbrhGdS4ix"}
     ]
   },
   "dataToLock":{
@@ -27,10 +27,10 @@
     "endDate":"2019-12-31"
   },
   "adxEvent":{
-    "orgId":"zJLpGWyTRc7",
-    "startDate":"2019-10-01",
-    "endDate":"2019-12-31",
-    "incrementDays":30,
+    "orgId":"wfO1cOQoX27",
+    "startDate":"2019-02-17",
+    "endDate":"2019-09-30",
+    "incrementDays":1,
     "categoriesOptionsId":{
       "categoryKeyPopIds":[
         {
@@ -188,6 +188,22 @@
       "stageId":"KEg4RKcR7Qg",
       "dataSetId":"qcluR96KeDB",
       "dataElementId":"f00LVLHeFPd",
+      "eventDataValues":{
+        "cdvClientARecuResultatTestVIH":"tF5bSr615Cy",
+        "cdvResultatVIH":"pJbPsCsSlCK"
+      },
+      "aggregateDataElements":{
+        "sexe":"zOclSdC850J",
+        "categorieKeyPop":"yWp4Cd6OUAy",
+        "groupAge":"mNkCvK0ORaV",
+        "partenaireExecution":"xxxxxxxxxxx"
+      }
+    },
+    {
+      "name":"POS1",
+      "stageId":"KEg4RKcR7Qg",
+      "dataSetId":"qcluR96KeDB",
+      "dataElementId":"jIhYBTQCVqV",
       "eventDataValues":{
         "cdvClientARecuResultatTestVIH":"tF5bSr615Cy",
         "cdvResultatVIH":"pJbPsCsSlCK"
