@@ -99,6 +99,25 @@ To generate Tx_Link_new RELATED dataElements
 ```
 curl http://localhost:8084/convertevent2adx/linknew
 ```
+<<<<<<< HEAD
+=======
+Prior to run all these commands, we need first to ensure that the data elements in the events contains the entity attributes to use as categories. This can be checked with Event report app in DHIS2 to visualize concerned data element. 
+
+### Automate the process
+In practice, since all this above command must be run several times until all the data are processed, it is advised to set up them as cron jobs.
+these are the default time for the crontab but the time interval can be increased based on the connection and server performance.
+```
+* * * * * curl http://localhost:8084/attribut2estage2
+*/2 * * * * curl http://localhost:8084/lockevents
+*/2 * * * * curl http://localhost:8084/unlockevents
+* * * * * curl http://localhost:8084/convertevent2adx/prev
+* * * * * curl http://localhost:8083/convertevent2adx/linknew
+* * * * * curl http://localhost:8084/convertevent2adx/test
+* * * * * curl http://localhost:8084/convertevent2adx/pos
+```
+
+
+>>>>>>> aed0d359069036241711332ad3c2e7a7546e3321
 
 Taratataaa!!!!
 

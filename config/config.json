@@ -1,36 +1,36 @@
 {
   "dhis":{
-    "baseUrlAPI":"http://localhost:8082/api",
-    "username":"admin",
-    "password":"district"
+    "baseUrlAPI":"https://dhis-infolinkdrc.fhi360.org/api",
+    "username":"gbisima",
+    "password":"P@ssword19"
   },
   "programStage":{
     "pageSize":10,
     "nbreTrackerEntityToProcess":180,
     "nbreEventsToProcess":100,
     "programId":"nXjCeCIjIYG",
-    "programStageId":"KEg4RKcR7Qg",
-    "startDate":"2018-10-01",
-    "endDate":"2019-12-31",
-    "parentOrgUnit":"mehqAZN3Og2",
+    "programStageId":"dWlyeXKe8Wb",
+    "startDate":"2020-01-01",
+    "endDate":"2020-01-31",
+    "parentOrgUnit":"cXH3cpvJQvP",
     "dataElementToTransfert":[
-      {"attributSource":"kxnOYVRPk3o","dataElementDestination":"yWp4Cd6OUAy"}
+      {"attributSource":"ryasRfhQ9gq","dataElementDestination":"gMbrhGdS4ix"}
     ]
   },
   "dataToLock":{
     "pageSize":10,
-    "programStageId":"dWlyeXKe8Wb",
+    "programStageId":"KYuM52EnXXj",
     "programId":"nXjCeCIjIYG",
-    "parentOrgUnit":"OdGGWjxNuka",
+    "parentOrgUnit":"mehqAZN3Og2",
     "nbreEventsToProcess":300,
     "startDate":"2018-10-01",
-    "endDate":"2019-12-31"
+    "endDate":"2019-09-30"
   },
   "adxEvent":{
-    "orgId":"zJLpGWyTRc7",
-    "startDate":"2019-10-01",
+    "orgId":"OdGGWjxNuka",
+    "startDate":"2019-12-01",
     "endDate":"2019-12-31",
-    "incrementDays":30,
+    "incrementDays":2,
     "categoriesOptionsId":{
       "categoryKeyPopIds":[
         {
@@ -188,6 +188,22 @@
       "stageId":"KEg4RKcR7Qg",
       "dataSetId":"qcluR96KeDB",
       "dataElementId":"f00LVLHeFPd",
+      "eventDataValues":{
+        "cdvClientARecuResultatTestVIH":"tF5bSr615Cy",
+        "cdvResultatVIH":"pJbPsCsSlCK"
+      },
+      "aggregateDataElements":{
+        "sexe":"zOclSdC850J",
+        "categorieKeyPop":"yWp4Cd6OUAy",
+        "groupAge":"mNkCvK0ORaV",
+        "partenaireExecution":"xxxxxxxxxxx"
+      }
+    },
+    {
+      "name":"POS1",
+      "stageId":"KEg4RKcR7Qg",
+      "dataSetId":"qcluR96KeDB",
+      "dataElementId":"jIhYBTQCVqV",
       "eventDataValues":{
         "cdvClientARecuResultatTestVIH":"tF5bSr615Cy",
         "cdvResultatVIH":"pJbPsCsSlCK"
