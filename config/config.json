@@ -1,8 +1,8 @@
 {
   "dhis":{
-    "baseUrlAPI":"https://dhis-infolinkdrc.fhi360.org/api",
-    "username":"gbisima",
-    "password":"P@ssword19"
+    "baseUrlAPI":"http://localhost:8080",
+    "username":"admin",
+    "password":"district"
   },
   "programStage":{
     "pageSize":10,
