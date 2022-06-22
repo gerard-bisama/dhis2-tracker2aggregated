@@ -22,7 +22,7 @@
   ],
   "dependencies": {
     "alasql": "^0.5.1",
-    "async": "^3.0.1",
+    "async": "^3.2.2",
     "btoa": "^1.2.1",
     "child_process": "^1.0.2",
     "express": "^4.13.4",
